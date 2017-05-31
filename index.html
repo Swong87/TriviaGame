@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+    <title>Trivia Game</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+	<!--Header-->
+	<div class="row">
+	    <div class="text-center col-md-12">
+	        <h1 class="text-center"><img id="reset" src="assets/images/title.png"></h1>
+	    </div>
+    </div>
+	<!--Main Content-->
+    <div class="container">
+        <div class="row">
+            <div class="jumbotron text-center trivia">
+                <div class="row">
+
+                    <div class="col-md-12" id="timer">
+                    </div>
+
+                    <div id="gameArea">
+                	   <button type="button" class=" btn btn-lg btn-danger" id="start"><b>Start</b></button>
+                    </div>
+                    <br>
+
+                    <div class="col-md-12" id="question">
+                    </div>
+                    <br>
+                    <div class="answer container questions">
+                        <div id="answer0"></div>
+                        <div id="answer1"></div>
+                        <div id="answer2"></div>
+                        <div id="answer3"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="progress">
+        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+            <span class="sr-only"></span>
+        </div>
+    </div>
+        <script type="text/javascript " src="assets/javascript/app.js "></script>
+</body>
+
+</html>

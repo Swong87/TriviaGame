@@ -1,0 +1,28 @@
+body {
+     background: url("../images/bg.jpg") no-repeat center center fixed;
+     background-size: cover;
+     color: white;
+}
+.jumbotron {
+	background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(000, 000, 000, 0.4);
+}
+.trivia {
+	height: 500px;
+}
+#start {
+	width: 600px;
+	height: 200px;
+	font-size: 100px;
+}
+
+#gameArea, #timer, #question {
+	color: white;
+	font-size: 25px;
+}
+.answer {
+	width: 600px;
+}
+.bigFont {
+	font-size: 80px;
+}
