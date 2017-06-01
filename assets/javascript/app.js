@@ -59,7 +59,6 @@ $(document).ready(function(){
 		time: 15,
 
 		start: function() {
-
 			var clockRunning = false;
 			var timeLeft = 15;
 			//This starts the initail timer and shows the new question screen
@@ -190,5 +189,10 @@ $(document).ready(function(){
 	}
 	//When you click the start button, the game will start
 	$("#start").on("click", triviaGame.start);
+	$("#start").on("click", playSound);
+	function playSound() {
+		var audio = new Audio("assets/sounds/bgmusic.mp3");
+		audio.play()
+	}
 
 });
